@@ -1,10 +1,17 @@
 package basicSyntax;
 
-public class Main {
+public class Main { 
+	public static void main(String[] args){
+		
+		int age = 20;
+		double height = 180.0;
 
-	public static void main(String[] args) {
-		// TODO 自動生成されたメソッド・スタブ
+		int num1 = 23;
+		int num2 = 50;
 
+		GeekIntroduction geek1 = new GeekIntroduction(age, height, num1, num2);
+
+		geek1.greeting(age, height);	
+		geek1.specialSkill(num1, num2);
 	}
-
 }
